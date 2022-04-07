@@ -1,0 +1,148 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="containers" audience="compute" arm="1680717" href="/docs/containers?topic=containers-getting-started" path="containers"}
+IBM Cloud Kubernetes Service
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    
+
+    {: .topicgroup}
+    정보
+        cs_why.md
+        cs_tech.md
+
+    {: .topicgroup}
+    유스 케이스
+        cs_uc_intro.md
+        cs_uc_finance.md
+        cs_uc_health.md
+        cs_uc_retail.md
+        cs_uc_transport.md
+        cs_uc_gov.md
+
+    {: .topicgroup}
+    클러스터 전략
+        cs_responsibilities.md
+        cs_secure.md
+        cs_ha.md
+        cs_kube_strategy.md
+
+    {: .topicgroup}
+    튜토리얼
+        cs_tutorials.md
+        cs_tutorial_rhos.md
+        cs_tutorials_apps.md
+        cs_tutorials_policies.md
+        cs_tutorials_cf.md
+        [튜토리얼: VM 기반 애플리케이션을 Kubernetes로 이동](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-vm-to-containers-and-kubernetes#move-a-vm-based-application-to-kubernetes)
+        [튜토리얼: Cloud Internet Services를 사용하여 다중 지역 클러스터 작성](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-multi-region-k8s-cis#multi-region-k8s-cis)
+        [튜토리얼: Kubernetes에서 실행되는 컨테이너화된 앱에 대한 지속적 통합 및 지속적 딜리버리(CI/CD) 파이프라인 설정](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-continuous-deployment-to-kubernetes#continuous-deployment-to-kubernetes)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    cs_cli_install.md
+
+    {: .topicgroup}
+    클러스터 설정
+        cs_clusters_planning.md
+        cs_plan_ha.md
+        cs_plan_workers.md
+        cs_clusters.md
+        cs_workers.md
+
+    {: .topicgroup}
+    클러스터 관리
+        cs_cluster_scaling.md
+        cs_cluster_update.md
+        cs_users.md
+        cs_encrypt.md
+        cs_psp.md
+        cs_pod_priority.md
+        cs_health.md
+        cs_performance.md
+        cs_remove.md
+
+    {: .topicgroup}
+    클러스터 네트워크 트래픽 관리
+        cs_firewall.md
+        cs_network_policy.md
+        cs_edge.md
+        cs_vpn.md
+        cs_istio.md
+        cs_subnets.md
+        cs_network_cluster.md
+        cs_dns.md
+
+    cs_images.md
+    cs_app.md
+    cs_app_knative.md
+
+    {: .topicgroup}
+    앱 노출을 위한 네트워킹
+        cs_network_planning.md
+        cs_nodeport.md
+        cs_loadbalancer.md
+        cs_ingress.md
+        cs_annotations.md
+        cs_ingress_health.md
+
+    {: .topicgroup}
+    지속적 스토리지에 데이터 저장
+        cs_storage_planning.md
+        cs_storage_basics.md
+        cs_storage_file.md
+        cs_storage_block.md
+        cs_storage_cos.md
+        cs_storage_portworx.md
+        cs_storage_utilities.md
+        cs_storage_remove.md
+
+    {: .topicgroup}
+    통합하여 클러스터 기능 개선
+        cs_integrations_partnerships.md
+        cs_integrations_ibm_third_party.md
+        cs_integrations_addons.md
+        cs_integrations_helm.md
+        cs_integrations_service_binding.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    cs_at_events.md
+    cs_dedicated.md
+    cs_hybrid.md
+
+    {: .topicgroup}
+    IBM Cloud Kubernetes Service CLI 플러그인 참조
+        /containers-cli-plugin/containers-cli-plugin-kubernetes-service-cli
+        cs_cli_changelog.md
+
+    {: .topicgroup}
+    IBM Cloud Kubernetes Service 버전
+        cs_versions.md
+        cs_versions_changelog.md
+        cs_versions_addons.md
+
+    cs_regions.md
+    cs_integrations_overview.md
+    cs_access_reference.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    faqs.md
+
+    {: .topicgroup}
+    클러스터 문제점 해결
+        cs_troubleshoot.md
+        cs_troubleshoot_clusters.md
+        cs_troubleshoot_storage.md
+        cs_troubleshoot_health.md
+        cs_troubleshoot_debug_ingress.md
+        cs_troubleshoot_network.md
+
+    release_notes.md
+    cs_rellinks.md
+    cs_sitemap.md
+    {: .navgroup-end}
+

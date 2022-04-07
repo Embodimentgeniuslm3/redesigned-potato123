@@ -1,0 +1,2618 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with AI Text Handler 1.0.0 -->
+<ExtractedAITHs>
+<ExtractedAITH file="/images/basic_app_deployment_process.ai">
+<text>     구성 파일 작성</text>
+<text>CLI 설치</text>
+<text>구성 파일 실행</text>
+<text> </text>
+<text>     </text>
+<text>apiVersion: extensions/v1beta1 </text>
+<text>      </text>
+<text> </text>
+<text>    </text>
+<text>     </text>
+<text>Kubernetes CLI</text>
+<text>옵션 2:</text>
+<text>kind: Deployment </text>
+<text>metadata: </text>
+<text>spec: </text>
+<text>Kubernetes</text>
+<text>옵션 1:</text>
+<text>대시보드</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cluster_autoscaler.ai">
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_app_ha_roadmap-mz.ai">
+<text>앱 고가용성</text>
+<text>작업자 풀</text>
+<text>구역 2</text>
+<text>앱 팟(Pod) 2</text>
+<text>작업자 노드 1</text>
+<text>단일 구역 클러스터</text>
+<text>지역</text>
+<text>+ 배치</text>
+<text>앱 팟(Pod) 1</text>
+<text>작업자 노드 2</text>
+<text>지역</text>
+<text>구역</text>
+<text>앱 팟(Pod) 3</text>
+<text>앱 팟(Pod) 3</text>
+<text>다중 구역 클러스터</text>
+<text>작업자 풀</text>
+<text>작업자 노드 3</text>
+<text>작업자 노드 2</text>
+<text>앱 팟(Pod) 1</text>
+<text>앱 팟(Pod) 1</text>
+<text>앱 팟(Pod) 3</text>
+<text>작업자 노드 2</text>
+<text>앱 팟(Pod) 1</text>
+<text>앱 팟(Pod) 2</text>
+<text>단일 구역 클러스터</text>
+<text>작업자 노드 1</text>
+<text>+ 반친화성</text>
+<text>작업자 노드 3</text>
+<text>구역 1</text>
+<text>구역</text>
+<text>작업자 노드 1</text>
+<text>작업자 노드 3</text>
+<text>작업자 노드 1</text>
+<text>작업자 풀</text>
+<text>3</text>
+<text>+ 복제본 세트</text>
+<text>작업자 노드</text>
+<text>앱 팟(Pod) 3</text>
+<text>앱 팟(Pod) 3</text>
+<text>1</text>
+<text>앱 팟(Pod) 1</text>
+<text>작업자 노드 2</text>
+<text>앱 팟(Pod) 2</text>
+<text>2</text>
+<text>구역 3</text>
+<text>앱 팟(Pod) 2</text>
+<text>지역</text>
+<text>앱 팟(Pod) 2</text>
+<text>작업자 노드 3</text>
+<text>+ 복제본 세트</text>
+<text>+ 반친화성</text>
+<text>+ 배치</text>
+<text>+ 복제본 세트</text>
+<text>+ 배치</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_app_tutorial_mz-components1.ai">
+<text>클러스터</text>
+<text>계정</text>
+<text>서비스</text>
+<text>작업자 노드</text>
+<text>배치</text>
+<text>팟(Pod)</text>
+<text>앱</text>
+<text>작업자 풀</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_app_tutorial_mz-components2.ai">
+<text>클러스터</text>
+<text>계정</text>
+<text>서비스</text>
+<text>작업자 노드</text>
+<text>배치</text>
+<text>팟(Pod) 3</text>
+<text>앱 3</text>
+<text>작업자 풀</text>
+<text>복제본 세트</text>
+<text>팟(Pod) 1</text>
+<text>앱 1</text>
+<text>팟(Pod) 2</text>
+<text>앱 2</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_app_tutorial_mz-components3.ai">
+<text>클러스터</text>
+<text>계정</text>
+<text>Watson-talk-service</text>
+<text>배치</text>
+<text>talk-pod</text>
+<text>앱</text>
+<text>작업자 풀</text>
+<text>Watson Tone </text>
+<text>Analyzer 서비스</text>
+<text>Watson-service</text>
+<text>작업자 노드</text>
+<text>배치</text>
+<text>Watson-pod</text>
+<text>앱</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_app_tutorial_mz-roadmap.ai">
+<text>앱 가용성</text>
+<text>작업자 풀</text>
+<text>팟(Pod) 2</text>
+<text>Watson-talk-service</text>
+<text>계정</text>
+<text>앱</text>
+<text>talk-pod</text>
+<text>배치</text>
+<text>작업자 풀</text>
+<text>Analyzer 서비스</text>
+<text>Watson Tone </text>
+<text>Watson-service</text>
+<text>작업자 노드</text>
+<text>앱</text>
+<text>Watson-pod</text>
+<text>클러스터</text>
+<text>앱 1</text>
+<text>팟(Pod) 1</text>
+<text>복제본 세트</text>
+<text>작업자 풀</text>
+<text>앱 3</text>
+<text>팟(Pod) 3</text>
+<text>배치</text>
+<text>작업자 노드</text>
+<text>계정</text>
+<text>서비스</text>
+<text>클러스터</text>
+<text>학습 2</text>
+<text>계정</text>
+<text>클러스터</text>
+<text>앱</text>
+<text>팟(Pod)</text>
+<text>배치</text>
+<text>서비스</text>
+<text>작업자 노드</text>
+<text>학습 1</text>
+<text>앱 2</text>
+<text>학습 3</text>
+<text>배치</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_cli_ref_imagemap_1.ai">
+<text>feature</text>
+<text>update</text>
+<text>클러스터 관리 명령</text>
+<text>cluster</text>
+<text>config</text>
+<text>unset audit-webhook</text>
+<text>create</text>
+<text>user-subnet</text>
+<text>add</text>
+<text>subnet</text>
+<text>unbind</text>
+<text>disable</text>
+<text>private-service-endpoint</text>
+<text>public-service-endpoint</text>
+<text>ls</text>
+<text>ls</text>
+<text>bind</text>
+<text>service</text>
+<text>enable</text>
+<text>refresh</text>
+<text>add</text>
+<text>apiserver</text>
+<text>create</text>
+<text>rm</text>
+<text>get audit-webhook</text>
+<text>set audit-webhook</text>
+<text>zone</text>
+<text>network-set</text>
+<text>ls</text>
+<text>rm</text>
+<text>add</text>
+<text>worker-pool</text>
+<text>ls</text>
+<text>get</text>
+<text>rm</text>
+<text>resize</text>
+<text>rebalance</text>
+<text>create</text>
+<text>worker</text>
+<text>update</text>
+<text>ls</text>
+<text>get</text>
+<text>rm</text>
+<text>reload</text>
+<text>reboot</text>
+<text>add</text>
+<text>rm</text>
+<text>refresh</text>
+<text>trusted</text>
+<text>public-service-endpoint</text>
+<text>ls</text>
+<text>get</text>
+<text>ls</text>
+<text>addon</text>
+<text>disable</text>
+<text>knative</text>
+<text>istio</text>
+<text>istio-extras</text>
+<text>istio-sample-bookinfo</text>
+<text>kube-terminal</text>
+<text>kube-terminal</text>
+<text>knative</text>
+<text>istio-sample-bookinfo</text>
+<text>istio-extras</text>
+<text>istio</text>
+<text>enable</text>
+<text>config</text>
+<text>pull-secret</text>
+<text>apply</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_cli_ref_imagemap_2.ai">
+<text>disable</text>
+<text>enable</text>
+<text>get</text>
+<text>deploy</text>
+<text>get</text>
+<text>ls</text>
+<text>rm</text>
+<text>configure</text>
+<text>rollback</text>
+<text>types</text>
+<text>get</text>
+<text>ls</text>
+<text>update</text>
+<text>key-protect</text>
+<text>logging</text>
+<text>autoupdate</text>
+<text>config</text>
+<text>disable</text>
+<text>enable</text>
+<text>get</text>
+<text>create</text>
+<text>get</text>
+<text>rm</text>
+<text>collect</text>
+<text>collect-status</text>
+<text>update</text>
+<text>filter</text>
+<text>create</text>
+<text>get</text>
+<text>rm</text>
+<text>update</text>
+<text>va</text>
+<text>webhook-create</text>
+<text>alb</text>
+<text>클러스터 추가 기능 명령</text>
+<text>autoupdate</text>
+<text>cert</text>
+<text>refresh</text>
+<text>enable</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_cli_ref_imagemap_3.ai">
+<text>machine-types</text>
+<text>vlan</text>
+<text>정보 명령</text>
+<text>api</text>
+<text>계정 관리 명령</text>
+<text>ls</text>
+<text>spanning</text>
+<text>subnets</text>
+<text>get</text>
+<text>api-key</text>
+<text>credential</text>
+<text>get</text>
+<text>set</text>
+<text>messages</text>
+<text>unset</text>
+<text>init</text>
+<text>kube-versions</text>
+<text>reset</text>
+<text>info</text>
+<text>구성 명령</text>
+<text>unset</text>
+<text>set</text>
+<text>ls</text>
+<text>get</text>
+<text>region</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_clusters_hardware.ai">
+<text>IBM 고객 1</text>
+<text>작업자 노드 1</text>
+<text>팟(Pod)</text>
+<text>컨테이너</text>
+<text>앱</text>
+<text>클러스터</text>
+<text>컨테이너</text>
+<text>작업자 노드 2</text>
+<text>앱</text>
+<text>팟(Pod)</text>
+<text>작업자 노드 1</text>
+<text>팟(Pod)</text>
+<text>컨테이너</text>
+<text>앱</text>
+<text>클러스터</text>
+<text>IBM 고객 2</text>
+<text>공유 하드웨어</text>
+<text>VM</text>
+<text>VM</text>
+<text>VM</text>
+<text>하이퍼바이저</text>
+<text>IBM 고객 1</text>
+<text>앱</text>
+<text>클러스터</text>
+<text>팟(Pod)</text>
+<text>컨테이너</text>
+<text>전용 하드웨어</text>
+<text>하이퍼바이저</text>
+<text>작업자 노드 1</text>
+<text>팟(Pod)</text>
+<text>컨테이너</text>
+<text>앱</text>
+<text>클러스터</text>
+<text>VM</text>
+<text>VM</text>
+<text>IBM 고객 1</text>
+<text>작업자 노드 2</text>
+<text>작업자 노드 2</text>
+<text>팟(Pod)</text>
+<text>컨테이너</text>
+<text>앱</text>
+<text>작업자 노드 1</text>
+<text>팟(Pod)</text>
+<text>컨테이너</text>
+<text>앱</text>
+<text>베어메탈</text>
+<text>베어메탈</text>
+<text>실제 머신</text>
+<text>가상 머신</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_cluster_ha_roadmap_multizone.ai">
+<text>미국 남부</text>
+<text>미국 동부</text>
+<text>작업자 2</text>
+<text>작업자 풀</text>
+<text>작업자 1</text>
+<text>클러스터</text>
+<text>클러스터 </text>
+<text>작업자 1</text>
+<text>단일 구역 클러스터</text>
+<text>클러스터 고가용성</text>
+<text>미국 남부</text>
+<text>미국 동부</text>
+<text>작업자 풀</text>
+<text>작업자 1</text>
+<text>클러스터 </text>
+<text>1</text>
+<text>작업자 2</text>
+<text>작업자 1</text>
+<text>2</text>
+<text>작업자 2</text>
+<text>다중 구역 클러스터</text>
+<text>작업자 1</text>
+<text>작업자 2</text>
+<text>미국 남부</text>
+<text>미국 동부</text>
+<text>작업자 풀</text>
+<text>클러스터 </text>
+<text>작업자 1</text>
+<text>작업자 2</text>
+<text>작업자 풀</text>
+<text>작업자 2</text>
+<text>글로벌 로드 밸런서가 있는 다중 클러스터</text>
+<text>작업자 풀</text>
+<text>3</text>
+<text>작업자 1</text>
+<text>작업자 2</text>
+<text>클러스터 </text>
+<text>작업자 1</text>
+<text>작업자 2</text>
+<text>글로벌 로드 밸런서</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_cluster_migrate.ai">
+<text>구역</text>
+<text>지역</text>
+<text>작업자 1</text>
+<text>작업자 2</text>
+<text>작업자 3</text>
+<text>독립형 작업자 노드가 있는 단일 구역 클러스터</text>
+<text>작업자 풀</text>
+<text>단일 구역 클러스터</text>
+<text>구역</text>
+<text>지역</text>
+<text>작업자 3</text>
+<text>작업자 2</text>
+<text>작업자 1</text>
+<text>작업자 풀이 있는 단일 구역 클러스터</text>
+<text>단일 구역 클러스터</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_cluster_multizone-ha.ai">
+<text>작업자 풀</text>
+<text>지역</text>
+<text>작업자 2</text>
+<text>작업자 3</text>
+<text>구역 로드 밸런서</text>
+<text>다중 구역 클러스터</text>
+<text>고가용성 마스터가 있는 다중 구역 클러스터</text>
+<text>ALB</text>
+<text>작업자 1</text>
+<text>ALB</text>
+<text>작업자 1</text>
+<text>ALB</text>
+<text>작업자 1</text>
+<text>작업자 2</text>
+<text>작업자 3</text>
+<text>작업자 2</text>
+<text>작업자 3</text>
+<text>구역 3</text>
+<text>구역 2</text>
+<text>구역 1</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_cluster_singlezone.ai">
+<text>단일 구역 클러스터</text>
+<text>단일 구역 클러스터</text>
+<text>구역</text>
+<text>작업자 1</text>
+<text>ALB</text>
+<text>작업자 풀</text>
+<text>작업자 3</text>
+<text>작업자 2</text>
+<text>지역</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_dedicated_arch.ai">
+<text>IBM Cloud
+인프라
+네트워크</text>
+<text>공용 VLAN</text>
+<text>kube-dashboard</text>
+<text>공용 VLAN</text>
+<text>3</text>
+<text>고객 관리</text>
+<text>IBM Storage Provider</text>
+<text>kublet은 워크로드의 업데이트가 있는지
+kube-apiserver를 감시하고 상태를 보고합니다.</text>
+<text>IBM 관리 인프라</text>
+<text>1</text>
+<text>ibm-system 네임스페이스입니다.</text>
+<text>kube-proxy</text>
+<text>kubectl exec, attach, logs 및 proxy를
+지원하기 위해 IBM 관리 마스터를 작업자 노드에
+안전하게 연결합니다.</text>
+<text>kube-apiserver</text>
+<text>사용자가 API 오브젝트에 대한 데이터를 구성하는
+kube-apiserver에 액세스하도록 허용합니다.</text>
+<text>kube-dns</text>
+<text>2</text>
+<text>네트워크 정책을 관리합니다.</text>
+<text>IBM Load Balancer</text>
+<text>kube-scheduler</text>
+<text>kubernetes-system 네임스페이스입니다.</text>
+<text>openvpn-client</text>
+<text>2</text>
+<text>IBM Logging and Metrics</text>
+<text>openvpn-server</text>
+<text>기본 네임스페이스입니다.</text>
+<text>작업자 노드를 IBM 관리 마스터에 안전하게
+연결합니다.</text>
+<text>kube-controller-manager</text>
+<text>마스터 </text>
+<text>etcd</text>
+<text>IBM 관리 마스터</text>
+<text>heapster</text>
+<text>calico-node</text>
+<text>3</text>
+<text>calico-policy-controller</text>
+<text>고객 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>방화벽</text>
+<text>1</text>
+<text>kubelet</text>
+<text>IBM Ingress Controller</text>
+<text>calico-ipam</text>
+<text>calico-cni</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_encrypt_ov.ai">
+<text>5</text>
+<text>4</text>
+<text>3</text>
+<text>2</text>
+<text>1</text>
+<text>마스터</text>
+<text>작업자 노드</text>
+<text>클러스터</text>
+<text>스토리지</text>
+<text>IBM Cloud 서비스</text>
+<text>레지스트리</text>
+<text>Watson</text>
+<text>Key Protect, 루트 키</text>
+<text>Key Protect DEK</text>
+<text>시크릿</text>
+<text>오브젝트</text>
+<text>볼륨</text>
+<text>팟(Pod)</text>
+<text>컨테이너</text>
+<text>작업자 노드 머신</text>
+<text>기본 디스크</text>
+<text>보조 디스크</text>
+<text>LUKS 키</text>
+<text>이미지</text>
+<text>etcd</text>
+<text>오브젝트</text>
+<text>파일</text>
+<text>블록</text>
+<text>파일</text>
+<text>블록</text>
+<text>시크릿 볼륨</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_failure_ov.ai">
+<text>NFS</text>
+<text>3</text>
+<text>4</text>
+<text>1</text>
+<text>클러스터</text>
+<text>노드 2</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 2</text>
+<text>1</text>
+<text>팟(Pod) 2</text>
+<text>노드 3</text>
+<text>미국 남부 지역</text>
+<text>1</text>
+<text>dal12 위치</text>
+<text>외부 글로벌 로드 밸런서</text>
+<text>2</text>
+<text>팟(Pod) 2</text>
+<text>노드 1</text>
+<text>팟(Pod) 1</text>
+<text>IBM Cloud Cloudant </text>
+<text>팟(Pod) 1</text>
+<text>6a</text>
+<text>팟(Pod) 1</text>
+<text>노드 1</text>
+<text>6b</text>
+<text>5</text>
+<text>데이터베이스 서비스</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_image_security.ai">
+<text>스캔</text>
+<text>가져오기</text>
+<text>푸시</text>
+<text>클러스터</text>
+<text>이미지 저장소</text>
+<text>레지스트리 네임스페이스</text>
+<text>Vulnerability</text>
+<text>이미지</text>
+<text>신뢰할 수 있는 서명자</text>
+<text>취약한</text>
+<text>스캔</text>
+<text>컨테이너</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>개발자</text>
+<text>컨테이너</text>
+<text>정상</text>
+<text>Advisor</text>
+<text>중지</text>
+<text>이미지</text>
+<text>이미지</text>
+<text>라이브 스캔</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_ingress.ai">
+<text>3</text>
+<text>요청이 ALB IP:
+169.xx.xx.xx:80으로
+전송됨</text>
+<text>mycluster.
+containers.appdomain.
+cloud</text>
+<text>작업자 노드</text>
+<text>ALB IP:
+169.xx.xx.xx</text>
+<text>1</text>
+<text>2</text>
+<text>클라이언트 앱이
+다음으로 요청을 전송함:
+‘mycluster.
+containers.appdomain.
+cloud/myapp’</text>
+<text>클러스터</text>
+<text>4</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>5</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>팟(Pod)</text>
+<text>myapp의 인스턴스 2</text>
+<text>작업자 노드</text>
+<text>ALB</text>
+<text>LB
+서비스</text>
+<text>작업자 노드</text>
+<text>myapp의 인스턴스 1</text>
+<text>DNS</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_ingress_imagemap.ai">
+<text>성능 튜닝</text>
+<text>공개적으로 클러스터 내부 앱 노출</text>
+<text>아키텍처</text>
+<text>정보</text>
+<text>ALB IP</text>
+<text>Ingress 컴포넌트</text>
+<text>소스 IP
+유지</text>
+<text>SSL 프로토콜
+구성</text>
+<text>선택적 구성</text>
+<text>포트 열기</text>
+<text>어노테이션</text>
+<text>설정</text>
+<text>네임스페이스당 리소스</text>
+<text>전제조건</text>
+<text>자체 제어기 가져오기</text>
+<text>비공개로 클러스터 내부 앱 노출</text>
+<text>공개적으로 외부 앱 노출</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_ingress_multizone.ai">
+<text>작업자 풀</text>
+<text>구역 2</text>
+<text>지역</text>
+<text>구역 1</text>
+<text>ALB</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>다중 구역 클러스터</text>
+<text>3</text>
+<text>myapp의 인스턴스 1</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>작업자 노드</text>
+<text>요청이 구역 1 ALB IP:
+169.xx.xx.xx:80으로
+전송됨</text>
+<text>5</text>
+<text>4</text>
+<text>작업자 노드</text>
+<text>다중 구역
+로드 밸런서</text>
+<text>구역 2 ALB IP:
+169.xx.xx.xx</text>
+<text>팟(Pod)</text>
+<text>LB
+서비스</text>
+<text>myapp의 인스턴스 2</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>작업자 노드</text>
+<text>ALB</text>
+<text>LB
+서비스</text>
+<text>클라이언트 앱이
+다음으로 요청을 전송함:
+‘mycluster.
+containers.appdomain.
+cloud/myapp’</text>
+<text>mycluster.
+containers.appdomain.
+cloud</text>
+<text>DNS</text>
+<text>구역 1 ALB IP:
+169.xx.xx.xx</text>
+<text>1</text>
+<text>2</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_ingress_multi_ns.ai">
+<text>개발 네임스페이스</text>
+<text>Ingress 리소스</text>
+<text>app2</text>
+<text>app1</text>
+<text>http://dev.domain.net/app1</text>
+<text>http://dev.domain.net/app2</text>
+<text>Ingress 리소스</text>
+<text>app3</text>
+<text>app4</text>
+<text>http://stage.domain.net/app3</text>
+<text>스테이징 네임스페이스</text>
+<text>http://stage.domain.net/app4</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_ingress_singlezone.ai">
+<text>팟(Pod)</text>
+<text>컨테이너</text>
+<text>작업자 풀</text>
+<text>클러스터</text>
+<text>myapp의 인스턴스 1</text>
+<text>구역 1</text>
+<text>5</text>
+<text>4</text>
+<text>작업자 노드</text>
+<text>지역</text>
+<text>myapp의 인스턴스 2</text>
+<text>컨테이너</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>LB
+서비스</text>
+<text>ALB</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>클라이언트 앱이
+다음으로 요청을 전송함:
+‘mycluster.
+containers.appdomain.
+cloud/myapp’</text>
+<text>mycluster.
+containers.appdomain.
+cloud</text>
+<text>DNS</text>
+<text>ALB IP:
+169.xx.xx.xx</text>
+<text>1</text>
+<text>2</text>
+<text>요청이 ALB IP:
+169.xx.xx.xx:80으로
+전송됨</text>
+<text>3</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_ingress_single_ns.ai">
+<text>개발 네임스페이스</text>
+<text>Ingress 리소스</text>
+<text>app2</text>
+<text>app1</text>
+<text>http://domain.net/app2</text>
+<text>http://domain.net/app1</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_ingress_single_ns_multi_subs.ai">
+<text>개발 네임스페이스</text>
+<text>Ingress 리소스</text>
+<text>app2</text>
+<text>app1</text>
+<text>http://devB.domain.net/app2</text>
+<text>http://devA.domain.net/app1</text>
+<text>Ingress 리소스</text>
+<text>http://devA.domain.net/app1</text>
+<text>app2</text>
+<text>app1</text>
+<text>개발 네임스페이스</text>
+<text>또는</text>
+<text>http://devB.domain.net/app2</text>
+<text>Ingress 리소스</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_loadbalancer_imagemap.ai">
+<text>설정: 단일-구역</text>
+<text>스케줄링 알고리즘</text>
+<text>전제조건</text>
+<text>설정: 다중-구역</text>
+<text>로드 밸런서 2.0</text>
+<text>컴포넌트</text>
+<text>설정: 다중-구역</text>
+<text>로드 밸런서 1.0</text>
+<text>설정: 단일-구역</text>
+<text>소스 IP 유지</text>
+<text>개요</text>
+<text>v1.0 또는 v2.0?</text>
+<text>정보</text>
+<text>컴포넌트</text>
+<text>DNS 호스트 이름</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_loadbalancer_imagemap_1.ai">
+<text>설정: 단일-구역</text>
+<text>스케줄링 알고리즘</text>
+<text>전제조건</text>
+<text>설정: 다중-구역</text>
+<text>로드 밸런서 2.0</text>
+<text>컴포넌트</text>
+<text>설정: 다중 구역</text>
+<text>로드 밸런서 1.0</text>
+<text>설정: 단일-구역</text>
+<text>소스 IP 유지</text>
+<text>개요</text>
+<text>v1.0 또는 v2.0?</text>
+<text>정보</text>
+<text>컴포넌트</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_loadbalancer_ipvs_multizone.ai">
+<text>지역</text>
+<text>myapp
+팟(Pod)</text>
+<text>작업자 노드</text>
+<text>구역 2</text>
+<text>요청을 myapp에
+전송함</text>
+<text>myapp
+팟(Pod)</text>
+<text>작업자 노드</text>
+<text>작업자 풀</text>
+<text>구역 1</text>
+<text>LB 2.0</text>
+<text>작업자 노드</text>
+<text>요청을 myapp에
+전송함</text>
+<text>작업자 노드</text>
+<text>LB 2.0</text>
+<text>클러스터</text>
+<text>LB 외부 IP:
+169.xx.xx.xx:80</text>
+<text>LB 외부 IP:
+169.xx.xx.xx:8080</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_loadbalancer_ipvs_planning.ai">
+<text>구역 1</text>
+<text>지역</text>
+<text>클러스터</text>
+<text>클라이언트
+요청이 myapp으로
+전송됨</text>
+<text>IPIP</text>
+<text>터널 인터페이스: 169.61.23.130
+</text>
+<text>IPIP</text>
+<text>LB 2.0</text>
+<text>LB 외부 IP:
+169.61.23.130:80</text>
+<text>작업자 풀</text>
+<text>CR</text>
+<text>작업자 노드 10.73.14.26
+</text>
+<text>1</text>
+<text>IPIP</text>
+<text>CR</text>
+<text>myapp
+팟(Pod) 1</text>
+<text>응답</text>
+<text>CR</text>
+<text>4</text>
+<text>2</text>
+<text>3</text>
+<text>5</text>
+<text>작업자 노드
+10.73.14.25
+</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_loadbalancer_planning.ai">
+<text>작업자 노드</text>
+<text>LB 내부 IP:
+10.xx.xx.xx:9080</text>
+<text>작업자 노드</text>
+<text>myapp 팟(Pod)2</text>
+<text>요청을 myapp에
+전송함</text>
+<text>4</text>
+<text>3</text>
+<text>2</text>
+<text>LB
+서비스</text>
+<text>작업자 풀</text>
+<text>LB 외부 IP:
+169.xx.xx.xx:80</text>
+<text>클러스터</text>
+<text>1</text>
+<text>작업자 노드</text>
+<text>myapp 팟(Pod)1</text>
+<text>kube-proxy</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_loadbalancer_planning_multizone.ai">
+<text>LB 외부 IP:
+169.xx.xx.xx:80</text>
+<text>LB 외부 IP:
+169.xx.xx.xx:8080</text>
+<text>작업자 풀</text>
+<text>요청을 myapp에
+전송함</text>
+<text>작업자 노드</text>
+<text>지역</text>
+<text>요청을 myapp에
+전송함</text>
+<text>myapp
+팟(Pod) 1</text>
+<text>클러스터</text>
+<text>작업자 노드</text>
+<text>LB 1.0 서비스</text>
+<text>LB 1.0 서비스</text>
+<text>작업자 노드</text>
+<text>myapp
+팟(Pod) 2</text>
+<text>구역 2</text>
+<text>작업자 노드</text>
+<text>구역 1</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_multiple_cluster_zones.ai">
+<text>단일 구역 클러스터 2</text>
+<text>지역</text>
+<text>구역 1</text>
+<text>작업자 1</text>
+<text>글로벌 로드 밸런서</text>
+<text>작업자 2</text>
+<text>하나의 지역 내 개별 구역의 세 개의 단일 구역</text>
+<text>작업자 3</text>
+<text>ALB</text>
+<text>작업자 풀</text>
+<text>작업자 3</text>
+<text>작업자 2</text>
+<text>작업자 1</text>
+<text>ALB</text>
+<text>지역</text>
+<text>구역 2</text>
+<text>ALB</text>
+<text>단일 구역 클러스터 1</text>
+<text>작업자 풀</text>
+<text>구역 3</text>
+<text>작업자 1</text>
+<text>작업자 2</text>
+<text>작업자 3</text>
+<text>작업자 풀</text>
+<text>단일 구역 클러스터 3</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_cluster_setup_private.ai">
+<text>사설 VLAN</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>Kubernetes 서비스로
+클러스터 내부에서 앱 노출</text>
+<text>팟(Pod)</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>openvpn-
+client</text>
+<text>openvpn-
+server</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>개인 서비스 엔드포인트</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>클러스터</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>게이트웨이 디바이스</text>
+<text>사설 네트워크에서
+앱에 대한
+요청</text>
+<text>서버</text>
+<text>온프레미스
+네트워크</text>
+<text>암호화된 VPN 터널</text>
+<text>IBM Cloud Private</text>
+<text>메인프레임</text>
+<text>암호화된 VPN 터널</text>
+<text>사설 VLAN</text>
+<text>방화벽</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_cluster_setup_public.ai">
+<text>사설 VLAN</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>팟(Pod)</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>openvpn-
+client</text>
+<text>openvpn-
+server</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>개인 서비스 엔드포인트</text>
+<text>Kubernetes 서비스로
+클러스터 내부에서 앱 노출</text>
+<text>클러스터</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>방화벽</text>
+<text>공용 VLAN</text>
+<text>암호화된 VPN 터널</text>
+<text>메인프레임</text>
+<text>IBM Cloud Private</text>
+<text>암호화된 VPN 터널</text>
+<text>인터넷에서
+앱에 대한
+요청</text>
+<text>온프레미스
+네트워크</text>
+<text>서버</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_cluster_tree.ai">
+<text>아니오</text>
+<text>게이트웨이 디바이스 구성</text>
+<text>개인 서비스 엔드포인트 전용
+사용</text>
+<text>클러스터에
+연결된 VLAN은
+무엇입니까?</text>
+<text></text>
+<text>IBM Cloud 계정에
+VRF가 사용으로
+설정되어 있습니까?</text>
+<text>사설 전용</text>
+<text>예</text>
+<text>공용 전용, 공용 및 개인
+또는 개인 전용 서비스 엔드포인트
+사용</text>
+<text>아니오</text>
+<text>공용 서비스 엔드포인트 전용
+사용</text>
+<text>공용 및 사설</text>
+<text>예</text>
+<text></text>
+<text>IBM Cloud 계정에
+VRF가 사용으로
+설정되어 있습니까?</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_ov_master_private.ai">
+<text>사설 VLAN</text>
+<text>게이트웨이 디바이스</text>
+<text>개인 서비스 엔드포인트</text>
+<text>팟(Pod)</text>
+<text>사설 네트워크에서
+앱에 대한
+요청</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>Kubernetes 서비스로
+클러스터 내부에서 앱 노출</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>서버</text>
+<text>온프레미스
+네트워크</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>클러스터</text>
+<text>암호화된 VPN 터널</text>
+<text>IBM Cloud Private</text>
+<text>메인프레임</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>암호화된 VPN 터널</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>방화벽</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>openvpn-
+server</text>
+<text>openvpn-
+client</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_ov_master_public.ai">
+<text>공용 VLAN</text>
+<text>방화벽</text>
+<text>공용 VLAN</text>
+<text>팟(Pod)</text>
+<text>인터넷에서
+앱에 대한
+요청</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>Kubernetes 서비스로
+클러스터 내부에서 앱 노출</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>서버</text>
+<text>온프레미스
+네트워크</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>클러스터</text>
+<text>암호화된 VPN 터널</text>
+<text>IBM Cloud Private</text>
+<text>메인프레임</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>암호화된 VPN 터널</text>
+<text>공용 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>방화벽</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>openvpn-
+server</text>
+<text>openvpn-
+client</text>
+<text>공용
+서비스
+엔드포인트</text>
+<text>인터넷</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_ov_vpn_private.ai">
+<text>사설 VLAN</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>Kubernetes 서비스로
+클러스터 내부에서 앱 노출</text>
+<text>팟(Pod)</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>openvpn-
+client</text>
+<text>openvpn-
+server</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>개인 서비스 엔드포인트</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>클러스터</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>게이트웨이 디바이스</text>
+<text>사설 네트워크에서
+앱에 대한
+요청</text>
+<text>서버</text>
+<text>온프레미스
+네트워크</text>
+<text>암호화된 VPN 터널</text>
+<text>IBM Cloud Private</text>
+<text>메인프레임</text>
+<text>암호화된 VPN 터널</text>
+<text>사설 VLAN</text>
+<text>방화벽</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_ov_vpn_public.ai">
+<text>사설 VLAN</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>팟(Pod)</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>openvpn-
+client</text>
+<text>openvpn-
+server</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>개인 서비스 엔드포인트</text>
+<text>Kubernetes 서비스로
+클러스터 내부에 앱 노출</text>
+<text>클러스터</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>방화벽</text>
+<text>공용 VLAN</text>
+<text>암호화된 VPN 터널</text>
+<text>메인프레임</text>
+<text>IBM Cloud Private</text>
+<text>암호화된 VPN 터널</text>
+<text>인터넷에서
+앱에 대한
+요청</text>
+<text>온프레미스
+네트워크</text>
+<text>서버</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_ov_worker_private.ai">
+<text>사설 VLAN</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>Kubernetes 서비스로
+클러스터 내부에 앱 노출</text>
+<text>팟(Pod)</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>openvpn-
+client</text>
+<text>openvpn-
+server</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>개인 서비스 엔드포인트</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>클러스터</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>게이트웨이 디바이스</text>
+<text>사설 네트워크에서
+앱에 대한
+요청</text>
+<text>서버</text>
+<text>온프레미스
+네트워크</text>
+<text>암호화된 VPN 터널</text>
+<text>IBM Cloud Private</text>
+<text>메인프레임</text>
+<text>암호화된 VPN 터널</text>
+<text>사설 VLAN</text>
+<text>방화벽</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_ov_worker_public.ai">
+<text>사설 VLAN</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>팟(Pod)</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>openvpn-
+client</text>
+<text>openvpn-
+server</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>개인 서비스 엔드포인트</text>
+<text>Kubernetes 서비스로
+클러스터 내부에서 앱 노출</text>
+<text>클러스터</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>방화벽</text>
+<text>공용 VLAN</text>
+<text>암호화된 VPN 터널</text>
+<text>메인프레임</text>
+<text>IBM Cloud Private</text>
+<text>암호화된 VPN 터널</text>
+<text>인터넷에서
+앱에 대한
+요청</text>
+<text>온프레미스
+네트워크</text>
+<text>서버</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_planning_dt.ai">
+<text>아니오</text>
+<text>예</text>
+<text>Ingress 서비스</text>
+<text>Loadbalancer 서비스</text>
+<text>오랜 기간 동안 안정적인 IP 주소 또는 높은 앱 가용성이 필요합니까?</text>
+<text>표준</text>
+<text>Nodeport 서비스</text>
+<text>아니오</text>
+<text>Lite</text>
+<text>HTTP 또는 HTTPS 로드 밸런싱, 앱의 SSL 종료 또는 사용자 정의 라우팅 규칙이 필요합니까?</text>
+<text>예</text>
+<text>작업 중인 클러스터의 유형은 무엇입니까?</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_planning_external_private.ai">
+<text>사설 VLAN</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>Kubernetes 서비스로
+클러스터 내부에서 앱 노출</text>
+<text>팟(Pod)</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>openvpn-
+client</text>
+<text>openvpn-
+server</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>개인 서비스 엔드포인트</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>클러스터</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>게이트웨이 디바이스</text>
+<text>사설 네트워크에서
+앱에 대한
+요청</text>
+<text>서버</text>
+<text>온프레미스
+네트워크</text>
+<text>암호화된 VPN 터널</text>
+<text>IBM Cloud Private</text>
+<text>메인프레임</text>
+<text>암호화된 VPN 터널</text>
+<text>사설 VLAN</text>
+<text>방화벽</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_planning_external_public.ai">
+<text>사설 VLAN</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>팟(Pod)</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>openvpn-
+client</text>
+<text>openvpn-
+server</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>개인 서비스 엔드포인트</text>
+<text>Kubernetes 서비스로
+클러스터 내부에서 앱 노출</text>
+<text>클러스터</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>방화벽</text>
+<text>공용 VLAN</text>
+<text>암호화된 VPN 터널</text>
+<text>메인프레임</text>
+<text>IBM Cloud Private</text>
+<text>암호화된 VPN 터널</text>
+<text>인터넷에서
+앱에 대한
+요청</text>
+<text>온프레미스
+네트워크</text>
+<text>서버</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_planning_inside.ai">
+<text>사설 VLAN</text>
+<text>작업자 노드와 클러스터 마스터 간 통신</text>
+<text>클러스터와 온프레미스 또는 IBM Cloud Private 간 VPN 통신</text>
+<text>팟(Pod)</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>로드 밸런서 또는 Ingress ALB</text>
+<text>Ingress 및 로드 밸런서 서비스를 사용하여 공용 또는 사설 네트워크에 앱 노출</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>작업자 노드의 네트워크 연결
+(공용 및 사설 VLAN)</text>
+<text>openvpn-
+client</text>
+<text>openvpn-
+server</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>개인 서비스 엔드포인트</text>
+<text>Kubernetes 서비스로
+클러스터 내부에서 앱 노출</text>
+<text>클러스터</text>
+<text>사설 VLAN</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>앱 인스턴스</text>
+<text>컨테이너</text>
+<text>strongSwan VPN
+</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>에지 작업자 노드</text>
+<text>방화벽</text>
+<text>공용 VLAN</text>
+<text>암호화된 VPN 터널</text>
+<text>메인프레임</text>
+<text>IBM Cloud Private</text>
+<text>암호화된 VPN 터널</text>
+<text>인터넷에서
+앱에 대한
+요청</text>
+<text>온프레미스
+네트워크</text>
+<text>서버</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_planning_ov.ai">
+<text>인터넷</text>
+<text>LoadBalancer</text>
+<text>https://&lt;cluster_name&gt;.us-south.containers.appdomain.cloud</text>
+<text>kube-proxy</text>
+<text>kube-proxy</text>
+<text>ALB</text>
+<text>kube-proxy</text>
+<text>NodePort</text>
+<text>iptables</text>
+<text>팟(Pod)</text>
+<text>tcp://worker-node-ip:nodeport</text>
+<text>keepalived</text>
+<text>tcp://loadbalancer-ip:port</text>
+<text>팟(Pod)</text>
+<text>팟(Pod)</text>
+<text>keepalived</text>
+<text>팟(Pod)</text>
+<text>iptables</text>
+<text>팟(Pod)</text>
+<text>팟(Pod)</text>
+<text>iptables</text>
+<text>kube-proxy</text>
+<text>tcp://ingress-ip:port</text>
+<text>Ingress</text>
+<text>데이터 플레인: 이 선은 클러스터 네트워크 내의 사용자 트래픽을 나타냅니다.</text>
+<text>키</text>
+<text>제어 플레인: 이 선은 시스템 구성을 나타냅니다.</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_policy_multi_ns.ai">
+<text>티어: db</text>
+<text>앱: Srv2</text>
+<text>데이터베이스 서비스</text>
+<text>티어: 백엔드</text>
+<text>앱: Srv2</text>
+<text>티어: 프론트 엔드</text>
+<text>앱: Srv2</text>
+<text>백엔드 서비스</text>
+<text>사용: 금융</text>
+<text>프론트 엔드 서비스</text>
+<text>금융 네임스페이스</text>
+<text>티어: db</text>
+<text>앱: Srv1</text>
+<text>데이터베이스 서비스</text>
+<text>티어: 백엔드</text>
+<text>앱: Srv1</text>
+<text>티어: 프론트 엔드</text>
+<text>앱: Srv1</text>
+<text>백엔드 서비스</text>
+<text>사용: 계정</text>
+<text>프론트 엔드 서비스</text>
+<text>계정 네임스페이스</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_network_policy_single_ns.ai">
+<text>사용: 계정</text>
+<text>계정 네임스페이스</text>
+<text>프론트 엔드 서비스</text>
+<text>백엔드 서비스</text>
+<text>앱: Srv1</text>
+<text>티어: 프론트 엔드</text>
+<text>앱: Srv1</text>
+<text>티어: 백엔드</text>
+<text>티어: db</text>
+<text>앱: Srv1</text>
+<text>데이터베이스 서비스</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_nodeport_planning.ai">
+<text>1</text>
+<text>myapp의 인스턴스 2</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>작업자 노드</text>
+<text>요청을 myapp에
+전송함</text>
+<text>4</text>
+<text>3</text>
+<text>2</text>
+<text>작업자 풀</text>
+<text>NodePort 내부 IP:
+10.xx.xx.xx:9080</text>
+<text>myapp의 인스턴스 1</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>작업자 노드</text>
+<text>kube-proxy</text>
+<text>NodePort 서비스</text>
+<text>팟(Pod)</text>
+<text>작업자 노드</text>
+<text>클러스터</text>
+<text>지역</text>
+<text>구역 1</text>
+<text>작업자 노드 외부
+IP 및 NodePort:
+169.xx.xx.xx:31006</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_org_ov.ai">
+<text>공용 VLAN</text>
+<text>IBM Ingress ALB</text>
+<text>etcd</text>
+<text>공용 VLAN</text>
+<text>방화벽</text>
+<text>kube-controller-manager</text>
+<text>네트워크 정책을 관리합니다. 마스터에 대한 Calicoctl 명령은 마스터 URL과 노출된 etcd 포트를 사용하여 ibm-master-proxy에 의해 etcd로 전달됩니다.</text>
+<text>사용자가 API 오브젝트에 대한 데이터를 구성하는
+kube-apiserver에 액세스하도록 허용합니다.</text>
+<text>고객 관리</text>
+<text>IBM 관리</text>
+<text>작업자 노드에서 마스터로 보안 터널을 설정합니다.</text>
+<text>IBM Cloud
+인프라
+네트워크</text>
+<text>openvpn-server</text>
+<text>kube-apiserver</text>
+<text>작업자 노드</text>
+<text>kube-scheduler</text>
+<text>마스터
+(3개의 복제본)</text>
+<text>고객 서비스 및
+팟(Pod)</text>
+<text>기본 네임스페이스</text>
+<text>openvpn-client</text>
+<text>kubelet</text>
+<text>kube-proxy</text>
+<text>coredns</text>
+<text>kube-dashboard</text>
+<text>calico</text>
+<text>heapster</text>
+<text>IBM Storage Provider</text>
+<text>kube-system 네임스페이스</text>
+<text>ibm-system 네임스페이스</text>
+<text>IBM Load Balancer</text>
+<text>IBM Logging and Metrics</text>
+<text>ibm-master- proxy</text>
+<text>kubelet(kubectl 명령) 및 coredns는 ibm-master-proxy가 마스터 URL 및 지정된 포트로 전달한 요청을 통해 kube-apiserver와 통신합니다.</text>
+<text>kubectl exec, attach, logs(kubelet에 대한) 및 apiserver proxy(고객 서비스 및 팟(Pod)에 대한)를 지원하기 위해 마스터를 작업자 노드에 안전하게 연결합니다.</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_org_ov_both_ses.ai">
+<text>사설 VLAN</text>
+<text>공용 VLAN</text>
+<text>coredns</text>
+<text>공용 VLAN</text>
+<text>방화벽</text>
+<text>calico</text>
+<text>kube-scheduler</text>
+<text>etcd</text>
+<text>고객 관리</text>
+<text>ibm-master- proxy</text>
+<text>ibm-system 네임스페이스</text>
+<text>IBM Logging and Metrics</text>
+<text>kubelet</text>
+<text>IBM Cloud
+인프라
+네트워크</text>
+<text>작업자 노드</text>
+<text>openvpn-server</text>
+<text>kube-controller-manager</text>
+<text>공용 서비스 엔드포인트</text>
+<text>IBM Storage Provider</text>
+<text>기본 네임스페이스</text>
+<text>kube-system 네임스페이스</text>
+<text>kube-dashboard</text>
+<text>heapster</text>
+<text>사설 VLAN</text>
+<text>kube-apiserver</text>
+<text>openvpn-client</text>
+<text>IBM Load Balancer</text>
+<text>마스터(3개의 복제본)</text>
+<text>IBM Ingress ALB</text>
+<text>고객 서비스 및
+팟(Pod)</text>
+<text>IBM 관리</text>
+<text>kube-proxy</text>
+<text>네트워크 정책을 관리합니다. 마스터에 대한 Calicoctl 명령은 마스터 URL과 노출된 etcd 포트를 사용하여 ibm-master-proxy에 의해 etcd로 전달됩니다.</text>
+<text>작업자 노드에서 마스터로 보안 터널을 설정합니다.</text>
+<text>kubectl exec, attach, logs(kubelet에 대한) 및 apiserver proxy(고객 서비스 및 팟(Pod)에 대한)를 지원하기 위해 마스터를 작업자 노드에 안전하게 연결합니다.</text>
+<text>kubelet(kubectl 명령) 및 coredns는 ibm-master-proxy가 마스터 URL 및 지정된 포트로 전달한 요청을 통해 kube-apiserver와 통신합니다.</text>
+<text>사용자가 API 오브젝트에 대한 데이터를 구성하는
+kube-apiserver에 액세스하도록 허용합니다.</text>
+<text>개인 서비스 엔드포인트</text>
+<text>IBM Cloud
+인프라
+네트워크</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_org_ov_public_se.ai">
+<text>공용 VLAN</text>
+<text>kubelet(kubectl 명령) 및 coredns는 ibm-master-proxy가 마스터 URL 및 지정된 포트로
+전달한 요청을 통해 kube-apiserver와 통신합니다.</text>
+<text>coredns</text>
+<text>사용자가 API 오브젝트에 대한 데이터를 구성하는
+kube-apiserver에 액세스하도록 허용합니다.</text>
+<text>방화벽</text>
+<text>calico</text>
+<text>kube-scheduler</text>
+<text>etcd</text>
+<text>고객 관리</text>
+<text>ibm-master- proxy</text>
+<text>ibm-system 네임스페이스</text>
+<text>IBM Logging and Metrics</text>
+<text>kubelet</text>
+<text>공용 서비스 엔드포인트</text>
+<text>작업자 노드</text>
+<text>openvpn-server</text>
+<text>kube-controller-manager</text>
+<text>IBM Cloud
+인프라
+네트워크</text>
+<text>IBM Storage Provider</text>
+<text>기본 네임스페이스</text>
+<text>kube-system 네임스페이스</text>
+<text>kube-dashboard</text>
+<text>heapster</text>
+<text>공용 VLAN</text>
+<text>kube-apiserver</text>
+<text>openvpn-client</text>
+<text>IBM Load Balancer</text>
+<text>마스터(3개의 복제본)</text>
+<text>IBM Ingress ALB</text>
+<text>고객 서비스 및
+팟(Pod)</text>
+<text>IBM 관리</text>
+<text>kube-proxy</text>
+<text>네트워크 정책을 관리합니다. 마스터에 대한 Calicoctl 명령은 마스터 URL과 노출된 etcd 포트를 사용하여 ibm-master-proxy에 의해 etcd로 전달됩니다.</text>
+<text>작업자 노드에서 마스터로 보안 터널을 설정합니다.</text>
+<text>kubectl exec, attach, logs(kubelet에 대한) 및 apiserver proxy(고객 서비스 및 팟(Pod)에 대한)를 지원하기 위해 마스터를 작업자 노드에 안전하게 연결합니다.</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_portworx_volume_decryption.ai">
+<text>Portworx 클러스터</text>
+<text>클러스터</text>
+<text>Key Protect</text>
+<text>DEK</text>
+<text>작업자</text>
+<text>노드</text>
+<text>2</text>
+<text>CRK</text>
+<text>6</text>
+<text>시크릿</text>
+<text>5</text>
+<text>4</text>
+<text>볼륨</text>
+<text>etcd</text>
+<text>Portworx</text>
+<text>1</text>
+<text>비밀번호 문구</text>
+<text>api.UnWrap(CRK, DEK)</text>
+<text>3</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_portworx_volume_encryption.ai">
+<text>Portworx 클러스터</text>
+<text>클러스터</text>
+<text>CRK</text>
+<text>DEK</text>
+<text>작업자</text>
+<text>노드</text>
+<text>5</text>
+<text>DEK, 비밀번호 문구</text>
+<text>4</text>
+<text>시크릿</text>
+<text>3</text>
+<text>2</text>
+<text>PVC</text>
+<text>etcd</text>
+<text>Portworx</text>
+<text>1</text>
+<text>api.WrapCreateDEK(CRK)</text>
+<text>비밀번호 문구</text>
+<text>Key Protect</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_public_dedicated_options.ai">
+<text>IBM Cloud 데디케이티드에 대한 옵션 보기</text>
+<text>Kubernetes
+클러스터 작성</text>
+<text>CLI 설치</text>
+<text></text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_security_apiserver_access.ai">
+<text>클러스터</text>
+<text>Kubernetes API 서버</text>
+<text>etcd</text>
+<text>앱 팟(Pod)</text>
+<text>Kubernetes 마스터</text>
+<text>인증</text>
+<text>허가 제어</text>
+<text>작업자 2</text>
+<text>작업자 노드</text>
+<text>허가</text>
+<text>사람 사용자</text>
+<text>Kubernetes 서비스 계정을 통한 팟(Pod)</text>
+<text>OpenVPN 클라이언트</text>
+<text>OpenVPN 서버</text>
+<text>kubelet</text>
+<text>( TLS 인증서 )</text>
+<text>(RBAC)</text>
+<text>(허가 제어기)</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_security_threats.ai">
+<text>외부 공격</text>
+<text>     손상되거나 유실된 데이터</text>
+<text>취약한 배치</text>
+<text></text>
+<text></text>
+<text> </text>
+<text>   </text>
+<text></text>
+<text> </text>
+<text></text>
+<text>        내부자 및 서드파티 공급업체</text>
+<text></text>
+<text></text>
+<text></text>
+<text>클러스터, 배치된</text>
+<text>리소스, 앱 또는</text>
+<text>개인 정보에 </text>
+<text>액세스하는 공격자.</text>
+<text>알려진 취약성을</text>
+<text>악용하여 클라우드 환경에</text>
+<text>액세스하고 악성 </text>
+<text>소프트웨어 실행. </text>
+<text>민감한 데이터의</text>
+<text>잘못된 저장 및</text>
+<text>누락된 데이터 암호화. </text>
+<text>적법한 권한의 </text>
+<text>오용으로 이어질 수</text>
+<text>있는 누락된 네트워크</text>
+<text>격리 및 세분화. </text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_single_multitenant.ai">
+<text>kube-system</text>
+<text>팟(Pod)</text>
+<text>클러스터</text>
+<text>팀 A</text>
+<text>작업자 노드</text>
+<text>멀티 테넌트 클러스터 설정</text>
+<text>작업자 노드</text>
+<text>팀 A</text>
+<text>팀 B</text>
+<text>팀 B</text>
+<text>팟(Pod)</text>
+<text>Ingress</text>
+<text>Ingress</text>
+<text>kube-system</text>
+<text>작업자 노드</text>
+<text>클러스터</text>
+<text>팀 A</text>
+<text>팟(Pod)</text>
+<text>팀 A</text>
+<text>작업자 노드</text>
+<text>싱글 테넌트 클러스터 설정</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_storage_dynamic.ai">
+<text>클러스터</text>
+<text>PV</text>
+<text>파일 스토리지 플러그인(ibm.io/ibmc-file)</text>
+<text>3</text>
+<text>지속적 볼륨 클레임</text>
+<text>PVC</text>
+<text>4</text>
+<text>파일 스토리지</text>
+<text>지속적 볼륨(PV)</text>
+<text>1</text>
+<text>2</text>
+<text>(PVC)</text>
+<text>스토리지 클래스: ibmc-file-silver</text>
+<text>크기: 40Gi</text>
+<text>IOPS: 4</text>
+<text>40Gi, 4 IOPS</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_storage_nonpersistent.ai">
+<text>미국 남부 지역</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 2</text>
+<text>컨테이너 1</text>
+<text>노드 </text>
+<text>컨테이너 2</text>
+<text>클러스터</text>
+<text>작업자 노드</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 1</text>
+<text>dal10 위치
+</text>
+<text>dal10 위치
+</text>
+<text>클러스터</text>
+<text>2. 작업자 노드의 기본 또는</text>
+<text>컨테이너 1</text>
+<text>컨테이너 2</text>
+<text>노드</text>
+<text>미국 남부 지역</text>
+<text>1. 컨테이너 내부에
+</text>
+<text>기본</text>
+<text>스토리지</text>
+<text>보조</text>
+<text>스토리지</text>
+<text>보조 디스크에
+</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_storage_options_multizone.ai">
+<text>구역 dal12</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 1</text>
+<text>지역 1</text>
+<text>팟(Pod) 2</text>
+<text>작업자 노드 3</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 2</text>
+<text>구역 dal12</text>
+<text>IBM Cloudant NoSQL DB 서비스</text>
+<text>작업자 노드 2</text>
+<text>구역 dal10
+</text>
+<text>작업자 노드 3</text>
+<text>팟(Pod) 1</text>
+<text>작업자 노드 1</text>
+<text>팟(Pod) 1</text>
+<text>작업자 노드 2</text>
+<text>팟(Pod) 2</text>
+<text>작업자 노드 3</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 1</text>
+<text>작업자 노드 1</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 2</text>
+<text>작업자 노드 1</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 2</text>
+<text>구역 dal10
+</text>
+<text>팟(Pod) 1</text>
+<text>IBM Cloudant NoSQL DB 서비스</text>
+<text>클러스터 1</text>
+<text>1. IBM Cloud Object Storage</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 1</text>
+<text>지역 3</text>
+<text>작업자 노드 2</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 2</text>
+<text>3. 클라우드 데이터베이스 서비스</text>
+<text>미국 남부 지역</text>
+<text>미국 남부 지역</text>
+<text>팟(Pod) 1</text>
+<text>IBM Cloud Object Storage 버킷</text>
+<text>작업자 노드 3</text>
+<text>클러스터 2</text>
+<text>작업자 노드 1</text>
+<text>지역 2</text>
+<text>다중 구역 클러스터 작업자 풀</text>
+<text>작업자 노드 2</text>
+<text>팟(Pod) 2</text>
+<text>2. 소프트웨어 정의 스토리지(Portworx)</text>
+<text>미국 남부 지역</text>
+<text>팟(Pod) 2</text>
+<text>구역 dal10
+</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 1</text>
+<text>작업자 노드 1</text>
+<text>팟(Pod) 1</text>
+<text>작업자 노드 1</text>
+<text>팟(Pod) 2</text>
+<text>작업자 노드 1</text>
+<text>다중 구역 클러스터 작업자 풀</text>
+<text>구역 dal13</text>
+<text>구역 dal12</text>
+<text>Portworx 스토리지 계층</text>
+<text>작업자 노드 2</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 2</text>
+<text>작업자 노드 3</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 2</text>
+<text>작업자 노드 2</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 2</text>
+<text>작업자 노드 3</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 1</text>
+<text>작업자 노드 2</text>
+<text>작업자 노드 3</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 2</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_storage_pvc_pv.ai">
+<text>지속적 볼륨(PV)</text>
+<text>지속적 볼륨 클레임(PVC)</text>
+<text>실제 스토리지</text>
+<text>앱</text>
+<text>클러스터</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_storage_single_zone.ai">
+<text>구역 dal13
+</text>
+<text>IBM Cloud File 또는 Block Storage</text>
+<text>팟(Pod) 2</text>
+<text>구역 1 파일 또는 블록</text>
+<text>구역 3 백업 </text>
+<text>작업자 노드 1</text>
+<text>팟(Pod) 2</text>
+<text>작업자 노드 1</text>
+<text>NFS 또는 블록</text>
+<text>작업자 노드 2</text>
+<text>다중 구역 클러스터 작업자 풀</text>
+<text>구역 dal12</text>
+<text>팟(Pod) 2</text>
+<text>구역 dal10
+</text>
+<text>미국 남부 지역</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 1</text>
+<text>작업자 노드 3</text>
+<text>팟(Pod) 1</text>
+<text>작업자 노드 2</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 1</text>
+<text>팟(Pod) 2</text>
+<text>팟(Pod) 1</text>
+<text>구역 2 파일 또는 블록</text>
+<text>작업자 노드 3</text>
+<text>팟(Pod) 1</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_storage_static.ai">
+<text>4</text>
+<text>지속적 볼륨 클레임</text>
+<text>PVC</text>
+<text>클러스터</text>
+<text>파일 스토리지 플러그인(ibm.io/ibmc-file)</text>
+<text>지속적 볼륨(PV)</text>
+<text>3</text>
+<text>1</text>
+<text>2</text>
+<text>파일 스토리지</text>
+<text>PV</text>
+<text>(PVC)</text>
+<text>크기: 40Gi, IOPS: 4</text>
+<text>40Gi, 4 IOPS</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_tutorial_policies_L3.ai">
+<text>LoadBalancer 외부
+IP 및 포트:
+169.46.5.162:80</text>
+<text>요청</text>
+<text>시스템 IP에서의 </text>
+<text>노드
+포트</text>
+<text>로드 밸런서</text>
+<text>웹 서버</text>
+<text>팟(Pod)</text>
+<text>작업자 노드</text>
+<text>요청</text>
+<text>작업자 노드 외부
+IP 및 NodePort:
+169.48.176.106:31024</text>
+<text>웹 서버</text>
+<text>팟(Pod)</text>
+<text>작업자 노드</text>
+<text>클러스터</text>
+<text>인터넷에서의 </text>
+<text>LoadBalancer 외부
+IP 및 포트:
+169.46.5.162:80</text>
+<text>노드
+포트</text>
+<text>작업자 노드 외부
+IP 및 NodePort:
+169.48.176.105:31024</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_tutorial_policies_L4.ai">
+<text>작업자 노드 외부
+IP 및 NodePort:
+169.48.176.105:31024</text>
+<text>노드
+포트</text>
+<text>LoadBalancer 외부
+IP 및 포트:
+169.46.5.162:80</text>
+<text>인터넷에서의 </text>
+<text>클러스터</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>웹 서버</text>
+<text>작업자 노드 외부
+IP 및 NodePort:
+169.48.176.106:31024</text>
+<text>요청</text>
+<text>작업자 노드</text>
+<text>팟(Pod)</text>
+<text>웹 서버</text>
+<text>로드 밸런서</text>
+<text>노드
+포트</text>
+<text>LoadBalancer 외부
+IP 및 포트:
+169.46.5.162:80</text>
+<text>요청</text>
+<text>시스템 IP에서의 </text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_tutorial_policies_Lesson1.ai">
+<text>노드
+포트</text>
+<text>작업자 노드 외부
+IP 및 NodePort:
+169.48.176.105:31024</text>
+<text>웹 서버</text>
+<text>팟(Pod)</text>
+<text>작업자 노드</text>
+<text>요청</text>
+<text>작업자 노드 외부
+IP 및 NodePort:
+169.48.176.106:31024</text>
+<text>웹 서버</text>
+<text>팟(Pod)</text>
+<text>작업자 노드</text>
+<text>클러스터</text>
+<text>인터넷에서의 </text>
+<text>LoadBalancer 외부
+IP 및 포트:
+169.46.5.162:80</text>
+<text>노드
+포트</text>
+<text>로드 밸런서</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_tutorial_policies_Lesson2.ai">
+<text>노드
+포트</text>
+<text>요청</text>
+<text>작업자 노드</text>
+<text>웹 서버</text>
+<text>클러스터</text>
+<text>인터넷에서의 </text>
+<text>작업자 노드 외부
+IP 및 NodePort:
+169.48.176.106:31024</text>
+<text>팟(Pod)</text>
+<text>작업자 노드 외부
+IP 및 NodePort:
+169.48.176.105:31024</text>
+<text>LoadBalancer 외부
+IP 및 포트:
+169.46.5.162:80</text>
+<text>웹 서버</text>
+<text>로드 밸런서</text>
+<text>작업자 노드</text>
+<text>노드
+포트</text>
+<text>팟(Pod)</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_vpn_strongswan.ai">
+<text>팟(Pod)</text>
+<text>myapp</text>
+<text>2</text>
+<text>컨테이너</text>
+<text>컨테이너</text>
+<text>작업자 노드</text>
+<text>IBM Cloud</text>
+<text>인터넷</text>
+<text>VPN을 통해 공유되는
+로컬 서브넷:
+  
+Kubernetes 팟(Pod)
+172.30.0.0/16
+  
+Kubernetes
+서비스
+172.21.0.0/16</text>
+<text>작업자 노드</text>
+<text>1</text>
+<text>strongSwan VPN
+</text>
+<text>암호화된 VPN 터널</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>클러스터</text>
+<text>온프레미스
+네트워크</text>
+<text>5</text>
+<text>4</text>
+<text>메인프레임</text>
+<text>서버</text>
+<text>VPN을 통해 공유되는
+원격 서브넷:
+
+서버
+192.xx.xx.xx/24
+  
+메인프레임
+192.xx.xx.xx/24</text>
+<text>라우터</text>
+<text>3</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_vpn_strongswan1.ai">
+<text>팟(Pod)</text>
+<text>myapp</text>
+<text>컨테이너</text>
+<text>컨테이너</text>
+<text>메인프레임</text>
+<text>작업자 노드</text>
+<text>IBM Cloud</text>
+<text>라우터</text>
+<text>VPN을 통해 공유되는 
+
+
+로컬 서브넷:
+  
+Kubernetes 팟(Pod)
+172.30.0.0/16
+  
+Kubernetes 서비스
+172.21.0.0/16</text>
+<text>작업자 노드</text>
+<text>인터넷</text>
+<text>strongSwan VPN
+</text>
+<text>온프레미스 네트워크</text>
+<text>암호화된 VPN 터널</text>
+<text>서버</text>
+<text>IPSec VPN 팟(Pod)</text>
+<text>클러스터</text>
+<text>VPN을 통해 공유되는 
+
+
+원격 서브넷:
+
+서버(예) 
+192.168.0.0/24
+  
+메인프레임(예)
+192.168.1.0/24</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_vpn_vyatta.ai">
+<text>VPN을 통해 공유되는
+원격 서브넷:
+
+서버
+192.xx.xx.xx/24
+  
+메인프레임
+192.xx.xx.xx/24</text>
+<text>5</text>
+<text>팟(Pod)</text>
+<text>서버</text>
+<text>암호화된 VPN 터널</text>
+<text>3</text>
+<text>IBM Cloud</text>
+<text>myapp2</text>
+<text>VPN을 통해
+공유되는
+로컬 서브넷:
+  
+Cluster 사설
+네트워크
+10.0.0.0/8</text>
+<text>2</text>
+<text>컨테이너</text>
+<text>1</text>
+<text>4</text>
+<text>컨테이너</text>
+<text>인터넷</text>
+<text>작업자 노드</text>
+<text>클러스터</text>
+<text>메인프레임</text>
+<text>작업자 노드</text>
+<text>온프레미스
+네트워크</text>
+<text>라우터</text>
+<text>사설 VLAN</text>
+<text>팟(Pod)</text>
+<text>myapp1</text>
+<text>VRA</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/cs_worker_setup.ai">
+<text>Apparmor</text>
+<text>Apparmor</text>
+<text>암호화된 디스크</text>
+<text>작업자 노드</text>
+<text>Linux 이미지</text>
+<text>하이퍼바이저</text>
+<text>작업자 노드 설정(공유 하드웨어의 VM)</text>
+<text>클러스터 2</text>
+<text>ssh myworker</text>
+<text>베어메탈</text>
+<text>암호화된 디스크</text>
+<text>클러스터 1</text>
+<text>작업자 노드</text>
+<text>Linux 이미지</text>
+<text>암호화된 디스크</text>
+<text>Apparmor</text>
+<text>Linux 이미지</text>
+<text>작업자 노드</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/location-cluster-resources.ai">
+<text>클러스터</text>
+<text>스토리지</text>
+<text>위치(데이터센터)</text>
+<text>2</text>
+<text>작업자</text>
+<text>1</text>
+<text>3</text>
+<text>팟(Pod)</text>
+<text>tor01</text>
+<text>마스터</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/locations.ai">
+<text>단일 구역</text>
+<text>다중 구역</text>
+<text>IBM Cloud Kubernetes Service 위치</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/log_sources.ai">
+<text>기타 팟(Pod)</text>
+<text>7</text>
+<text>kubelet</text>
+<text>openvpn-server</text>
+<text>kube-apiserver</text>
+<text>kube-proxy</text>
+<text>kube-scheduler</text>
+<text>etcd</text>
+<text>kube-system 네임스페이스</text>
+<text>6</text>
+<text>마스터 </text>
+<text>작업자 노드</text>
+<text>5</text>
+<text>Ingress ALB</text>
+<text>1</text>
+<text>kube-controller-manager</text>
+<text>기본 네임스페이스</text>
+<text>애플리케이션</text>
+<text>컨테이너</text>
+<text>팟(Pod)</text>
+<text>3</text>
+<text>2</text>
+<text>4</text>
+<text>지속적 스토리지</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/network_imagemap.ai">
+<text>사용자 정의된 기본 클러스터 네트워킹</text>
+<text>기본 클러스터 네트워킹</text>
+<text>사설 VLAN</text>
+<text>사설 VLAN</text>
+<text>공용 VLAN</text>
+<text>사설 VLAN</text>
+<text>개인 전용 클러스터 네트워킹</text>
+<text>공용 VLAN</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/pod-priority.ai">
+<text>보류 중 팟(Pod)</text>
+<text>보류 중 팟(Pod)</text>
+<text>보류 중 팟(Pod)</text>
+<text>사용 가능한 노드</text>
+<text>사용 가능한 노드</text>
+<text>사용 가능한 노드</text>
+<text>스케줄러</text>
+<text>스케줄러</text>
+<text>스케줄러</text>
+<text>H</text>
+<text>스케줄러</text>
+<text>M</text>
+<text>L</text>
+<text>H</text>
+<text>M</text>
+<text>L</text>
+<text>H</text>
+<text>M</text>
+<text>L</text>
+<text>H</text>
+<text>M</text>
+<text>L</text>
+<text>H</text>
+<text>M</text>
+<text>M</text>
+<text>L</text>
+<text>1</text>
+<text>2</text>
+<text>3</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/region-cluster-resources.ai">
+<text>미국 동부</text>
+<text>스토리지</text>
+<text>위치(데이터센터)</text>
+<text>2</text>
+<text>작업자</text>
+<text>1</text>
+<text>3</text>
+<text>팟(Pod)</text>
+<text>tor01</text>
+<text>마스터</text>
+<text>클러스터</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/regions-mz.ai">
+<text>미국 남부</text>
+<text>미국 동부</text>
+<text>중앙 유럽</text>
+<text>영국 남부</text>
+<text>AP 남부</text>
+<text>AP 북부</text>
+<text>지역</text>
+<text>단일 구역</text>
+<text>다중 구역</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/subway.ai">
+<text>레지스트리</text>
+<text>서브넷</text>
+<text>네트워킹 구성</text>
+<text>앱 배치</text>
+<text>CLI 설치</text>
+<text>로드 밸런서</text>
+<text>Ingress</text>
+<text>NodePort</text>
+<text>스케일링</text>
+<text>롤링 배치</text>
+<text>대시보드</text>
+<text>ic cr</text>
+<text>ic</text>
+<text>시크릿</text>
+<text>DevOps</text>
+<text>ic cs</text>
+<text>클러스터 작성</text>
+<text>포트</text>
+<text>이미지 관리</text>
+<text>머신 유형</text>
+<text>로깅</text>
+<text>스토리지 설정</text>
+<text>NFS</text>
+<text>블록 스토리지</text>
+<text>서비스</text>
+<text>가상 또는 베어메탈 하드웨어</text>
+<text>작업자 풀</text>
+<text>모니터링</text>
+<text>확장 클러스터</text>
+<text>kubectl</text>
+<text>보안</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/trusted_compute.ai">
+<text>베어메탈 작업자 노드</text>
+<text>TPM이 포함된 하드웨어</text>
+<text>컨테이너</text>
+<text>BIOS</text>
+<text>부트로더</text>
+<text>OS 커널</text>
+<text>신뢰할 수 있는 컴퓨팅</text>
+<text>팟(Pod)</text>
+<text>신뢰
+에이전트</text>
+<text>마스터</text>
+<text>보안 서버</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/trusted_story.ai">
+<text>6</text>
+<text>팟(Pod)</text>
+<text>Security Advisor</text>
+<text>5</text>
+<text>1</text>
+<text>ALB/로드
+밸런서</text>
+<text>이미지
+보안
+적용</text>
+<text>컨테이너 레지스트리</text>
+<text>3</text>
+<text>베어메탈
+시작
+프로세스</text>
+<text>Vulnerability Advisor</text>
+<text>컨테이너</text>
+<text>신뢰
+에이전트</text>
+<text>2</text>
+<text>Certificate Manager</text>
+<text>컨테이너 스캐너</text>
+<text>서명된 이미지</text>
+<text>클러스터</text>
+<text>4</text>
+<text>Security Advisor</text>
+<text>작업자 노드</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/update-tree.ai">
+<text>변경된 사항을
+알고 있습니까?</text>
+<text>다음 단계:
+작업자 노드를
+업데이트하십시오!</text>
+<text>릴리스 정보를 읽으십시오! </text>
+<text>조치가 필요하지 않습니다!
+IBM에서 자동으로 패치를
+업데이트합니다. 작업자 노드를
+업데이트해야 하는 경우
+알림을 수신합니다. </text>
+<text>테스트 클러스터를 배치하십시오.</text>
+<text>업데이트 유형은
+무엇입니까?</text>
+<text></text>
+<text>패치</text>
+<text>주 버전 또는 부 버전</text>
+<text>아니오</text>
+<text>Kubernetes 리소스의
+구성 파일을
+업데이트하십시오.</text>
+<text>아니오</text>
+<text>테스트 클러스터에서
+마스터를 업데이트하십시오.</text>
+<text></text>
+<text>모두 문제 없이
+예상대로
+작동합니까?</text>
+<text>프로덕션 마스터를
+업데이트하고 프로덕션에
+배치하십시오.</text>
+<text>예</text>
+<text>예</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/user-policies.ai">
+<text>관리자</text>
+<text>플랫폼 역할</text>
+<text>수행 가능 조치:
+     • 서비스 인스턴스 작성
+     • 서비스 바인드 및 바인드 해제
+     • 웹훅 작성
+     • 기본 네임스페이스 내의 리소스에 대한
+        읽기 및 쓰기</text>
+<text>사용자 정의</text>
+<text>클러스터 관리자</text>
+<text>클러스터 관리자</text>
+<text>보기 전용</text>
+<text>수퍼유저</text>
+<text>보기</text>
+<text>개발자</text>
+<text>개발자</text>
+<text>감사자</text>
+<text>편집자</text>
+<text>볼 수 있는 항목:
+     • 클러스터 세부사항
+     • 인프라 정책
+     • 기본 네임스페이스 내의 리소스
+
+볼 수 없는 항목:
+    • Kubernetes 시크릿</text>
+<text>개발자</text>
+<text>수행 가능 조치:
+     • 작업자 노드 추가 및 제거
+     • 작업자 노드 다시 부팅 및 다시 로드
+     • 서브넷 추가
+     • DaemonSet
+     • 기본 네임스페이스 내의 리소스에 대한
+        읽기 및 쓰기(네임스페이스 자체에는
+        해당되지 않음)</text>
+<text>RBAC 역할</text>
+<text>인프라 역할</text>
+<text>Cloud Foundry 역할</text>
+<text>운영자</text>
+<text>수행 가능 조치:
+     • Kubernetes 대시보드에 액세스
+     • Ingress 리소스 작성
+     • 다른 사용자에 대한 정책 지정
+     • 네임스페이스 내에서 역할 작성
+     • 네임스페이스 내의 리소스에 대한 읽기 및 쓰기
+     • 인프라 리소스 작성</text>
+<text>사용자 정의</text>
+<text>감사자</text>
+<text>편집</text>
+<text>뷰어</text>
+<text>운영자</text>
+<text>관리자</text>
+<text>관리자</text>
+</ExtractedAITH>
+<ExtractedAITH file="/images/user_access.ai">
+<text>지역</text>
+<text>네트워크 정책</text>
+<text>Cloud Foundry 기반 서비스를 클러스터에 바인드</text>
+<text>클러스터에 대한
+IBM Cloud 인프라(Softlayer)
+리소스에 액세스</text>
+<text>영역</text>
+<text>시크릿</text>
+<text>kubectl 명령을 사용하여 Kubernetes 리소스를 관리하십시오.</text>
+<text>앱 팟(Pod)</text>
+<text>조직</text>
+<text>IBM Cloud 계정</text>
+<text>네임스페이스</text>
+<text>IAM: 서비스</text>
+<text>IAM: 플랫폼</text>
+<text>작업자 추가</text>
+<text>서비스 바인드</text>
+<text>ibmcloud ks 명령을 사용하여 다음을 수행하십시오.</text>
+<text>IAM</text>
+<text>Kubernetes 서비스</text>
+<text>리소스 그룹</text>
+<text>Cloud Foundry</text>
+<text>클러스터</text>
+<text>인프라</text>
+<text>IP</text>
+<text>VLAN</text>
+<text>CF 서비스</text>
+<text>네트워킹 및 스토리지 리소스 관리</text>
+<text>가상 서버</text>
+</ExtractedAITH>
+</ExtractedAITHs>

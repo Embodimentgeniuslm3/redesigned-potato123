@@ -1,0 +1,148 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="containers" audience="compute" arm="1680717" href="/docs/containers?topic=containers-getting-started" path="containers"}
+IBM Cloud Kubernetes Service
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    
+
+    {: .topicgroup}
+    A propos de
+        cs_why.md
+        cs_tech.md
+
+    {: .topicgroup}
+    Cas d'utilisation
+        cs_uc_intro.md
+        cs_uc_finance.md
+        cs_uc_health.md
+        cs_uc_retail.md
+        cs_uc_transport.md
+        cs_uc_gov.md
+
+    {: .topicgroup}
+    Stratégie relative à votre cluster
+        cs_responsibilities.md
+        cs_secure.md
+        cs_ha.md
+        cs_kube_strategy.md
+
+    {: .topicgroup}
+    Tutoriels
+        cs_tutorials.md
+        cs_tutorial_rhos.md
+        cs_tutorials_apps.md
+        cs_tutorials_policies.md
+        cs_tutorials_cf.md
+        [Tutoriel : Déplacement vers Kubernetes d'une application basée sur une MV](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-vm-to-containers-and-kubernetes#move-a-vm-based-application-to-kubernetes)
+        [Tutoriel : Création d'un cluster multirégion à l'aide de Cloud Internet Services](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-multi-region-k8s-cis#multi-region-k8s-cis)
+        [Tutoriel : Configuration d'un pipeline d'intégration et de distribution en continu pour des applications conteneurisées qui s'exécutent dans Kubernetes](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-continuous-deployment-to-kubernetes#continuous-deployment-to-kubernetes)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    cs_cli_install.md
+
+    {: .topicgroup}
+    Configuration de clusters
+        cs_clusters_planning.md
+        cs_plan_ha.md
+        cs_plan_workers.md
+        cs_clusters.md
+        cs_workers.md
+
+    {: .topicgroup}
+    Administration de clusters
+        cs_cluster_scaling.md
+        cs_cluster_update.md
+        cs_users.md
+        cs_encrypt.md
+        cs_psp.md
+        cs_pod_priority.md
+        cs_health.md
+        cs_performance.md
+        cs_remove.md
+
+    {: .topicgroup}
+    Gestion du trafic réseau de cluster
+        cs_firewall.md
+        cs_network_policy.md
+        cs_edge.md
+        cs_vpn.md
+        cs_istio.md
+        cs_subnets.md
+        cs_network_cluster.md
+        cs_dns.md
+
+    cs_images.md
+    cs_app.md
+    cs_app_knative.md
+
+    {: .topicgroup}
+    Configuration réseau pour exposer les applications
+        cs_network_planning.md
+        cs_nodeport.md
+        cs_loadbalancer.md
+        cs_ingress.md
+        cs_annotations.md
+        cs_ingress_health.md
+
+    {: .topicgroup}
+    Stockage de données sur du stockage persistant
+        cs_storage_planning.md
+        cs_storage_basics.md
+        cs_storage_file.md
+        cs_storage_block.md
+        cs_storage_cos.md
+        cs_storage_portworx.md
+        cs_storage_utilities.md
+        cs_storage_remove.md
+
+    {: .topicgroup}
+    Amélioration des fonctions de cluster avec des intégrations
+        cs_integrations_partnerships.md
+        cs_integrations_ibm_third_party.md
+        cs_integrations_addons.md
+        cs_integrations_helm.md
+        cs_integrations_service_binding.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    cs_at_events.md
+    cs_dedicated.md
+    cs_hybrid.md
+
+    {: .topicgroup}
+    Guide de référence du plug-in de l'interface CLI IBM Cloud Kubernetes Service
+        /containers-cli-plugin/containers-cli-plugin-kubernetes-service-cli
+        cs_cli_changelog.md
+
+    {: .topicgroup}
+    Versions d'IBM Cloud Kubernetes Service
+        cs_versions.md
+        cs_versions_changelog.md
+        cs_versions_addons.md
+
+    cs_regions.md
+    cs_integrations_overview.md
+    cs_access_reference.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    faqs.md
+
+    {: .topicgroup}
+    Traitement des incidents liés aux clusters
+        cs_troubleshoot.md
+        cs_troubleshoot_clusters.md
+        cs_troubleshoot_storage.md
+        cs_troubleshoot_health.md
+        cs_troubleshoot_debug_ingress.md
+        cs_troubleshoot_network.md
+
+    release_notes.md
+    cs_rellinks.md
+    cs_sitemap.md
+    {: .navgroup-end}
+
